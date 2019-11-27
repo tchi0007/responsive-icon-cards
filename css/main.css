@@ -18,4 +18,105 @@ html {
 
 body {
   margin: 0;
+  font-family: sans-serif;
+}
+
+.cards {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-img {
+  text-align: center;
+}
+
+.card-img img {
+  display: block;
+  width: 50px;
+}
+
+.card-body {
+  padding: .75rem;
+}
+
+.card-body h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.card-body p {
+  margin-top: 0;
+}
+
+.card {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.3;
+  }
+
+  .card-body {
+    display: inline-block;
+    width: 15rem;
+  }
+
+  .card-body h2 {
+    margin: 0;
+  }
+
+  .card-img {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  body {
+    display: inline-block;
+  }
+
+  html {
+  font-size: 110%;
+  line-height: 1.4;
+  }
+
+  .card-img {
+    display: block;
+  }
+
+  .card-body {
+    display: block;
+    width: 100%;
+  }
+
+  .card {
+    display: inline-block;
+    width: 40%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .card {
+    font-size: 120%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .card {
+    font-size: 130%;
+    line-height: 1.4;
+
+  }
+
 }
